@@ -14,7 +14,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/kjaylee/OnnxRuntimeC.git", from: "1.20.0"),
+        .package(url: "https://github.com/kjaylee/OnnxRuntimeC.git", from: "1.20.1"),
     ],
     targets: [
         .target(
