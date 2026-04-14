@@ -27,8 +27,8 @@ let package = Package(
             cxxSettings: [
                 .define("SPM_BUILD"),
                 .headerSearchPath("."),
-                .unsafeFlags(["-std=c++17"]),
             ]
         ),
-    ]
+    ],
+    cxxLanguageStandard: .cxx17
 )

@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/OnnxRuntimeLink.build/primary.swiftdeps"
+  },
+  "/Volumes/workspace/OnnxRuntimeObjC/.build/checkouts/OnnxRuntimeC/Sources/OnnxRuntimeLink/OnnxRuntimeC.swift": {
+    "dependencies": "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/OnnxRuntimeLink.build/OnnxRuntimeC.d",
+    "object": "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/OnnxRuntimeLink.build/OnnxRuntimeC.swift.o",
+    "swiftmodule": "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/OnnxRuntimeLink.build/OnnxRuntimeC~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/OnnxRuntimeLink.build/OnnxRuntimeC.swiftdeps",
+    "diagnostics": "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/OnnxRuntimeLink.build/OnnxRuntimeC.dia"
+  }
+}

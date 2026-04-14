@@ -9,11 +9,11 @@
         },
         "packageRef" : {
           "identity" : "onnxruntimec",
-          "kind" : "fileSystem",
-          "location" : "/Volumes/workspace/OnnxRuntimeC",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/kjaylee/OnnxRuntimeC.git",
           "name" : "OnnxRuntimeC"
         },
-        "path" : "/Volumes/workspace/OnnxRuntimeC/onnxruntime.xcframework",
+        "path" : "/Volumes/workspace/OnnxRuntimeObjC/.build/checkouts/OnnxRuntimeC/onnxruntime.xcframework",
         "source" : {
           "type" : "local"
         },
@@ -25,15 +25,18 @@
         "basedOn" : null,
         "packageRef" : {
           "identity" : "onnxruntimec",
-          "kind" : "fileSystem",
-          "location" : "/Volumes/workspace/OnnxRuntimeC",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/kjaylee/OnnxRuntimeC.git",
           "name" : "OnnxRuntimeC"
         },
         "state" : {
-          "name" : "fileSystem",
-          "path" : "/Volumes/workspace/OnnxRuntimeC"
+          "checkoutState" : {
+            "revision" : "b75cb19975ab3f807a8c41ac71c7e148e0bd1101",
+            "version" : "1.20.0"
+          },
+          "name" : "sourceControlCheckout"
         },
-        "subpath" : "onnxruntimec"
+        "subpath" : "OnnxRuntimeC"
       }
     ],
     "prebuilts" : [

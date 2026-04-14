@@ -7,7 +7,7 @@
       "inputs" : [
         {
           "kind" : "directory",
-          "name" : "/Volumes/workspace/OnnxRuntimeC/onnxruntime.xcframework/ios-arm64/onnxruntime.framework"
+          "name" : "/Volumes/workspace/OnnxRuntimeObjC/.build/checkouts/OnnxRuntimeC/onnxruntime.xcframework/ios-arm64/onnxruntime.framework"
         }
       ],
       "outputs" : [
@@ -30,14 +30,14 @@
 
   ],
   "swiftCommands" : {
-    "C.Link-arm64-apple-ios-debug.module" : {
+    "C.OnnxRuntimeLink-arm64-apple-ios-debug.module" : {
       "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
-      "fileList" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Link.build/sources",
+      "fileList" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/OnnxRuntimeLink.build/sources",
       "importPath" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Modules",
       "inputs" : [
         {
           "kind" : "file",
-          "name" : "/Volumes/workspace/OnnxRuntimeC/Sources/Link/OnnxRuntimeC.swift"
+          "name" : "/Volumes/workspace/OnnxRuntimeObjC/.build/checkouts/OnnxRuntimeC/Sources/OnnxRuntimeLink/OnnxRuntimeC.swift"
         },
         {
           "kind" : "file",
@@ -45,14 +45,14 @@
         },
         {
           "kind" : "file",
-          "name" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Link.build/sources"
+          "name" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/OnnxRuntimeLink.build/sources"
         }
       ],
       "isLibrary" : true,
-      "moduleName" : "Link",
-      "moduleOutputPath" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Modules/Link.swiftmodule",
+      "moduleName" : "OnnxRuntimeLink",
+      "moduleOutputPath" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Modules/OnnxRuntimeLink.swiftmodule",
       "objects" : [
-        "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Link.build/OnnxRuntimeC.swift.o"
+        "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/OnnxRuntimeLink.build/OnnxRuntimeC.swift.o"
       ],
       "otherArguments" : [
         "-target",
@@ -74,7 +74,7 @@
         "-parse-as-library",
         "-emit-objc-header",
         "-emit-objc-header-path",
-        "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Link.build/include/Link-Swift.h",
+        "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/OnnxRuntimeLink.build/include/OnnxRuntimeLink-Swift.h",
         "-swift-version",
         "6",
         "-plugin-path",
@@ -100,25 +100,28 @@
         "-fPIC",
         "-Xcc",
         "-g",
+        "-suppress-warnings",
+        "-user-module-version",
+        "1.20.0",
         "-package-name",
         "onnxruntimec"
       ],
-      "outputFileMapPath" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Link.build/output-file-map.json",
+      "outputFileMapPath" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/OnnxRuntimeLink.build/output-file-map.json",
       "outputs" : [
         {
           "kind" : "file",
-          "name" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Link.build/OnnxRuntimeC.swift.o"
+          "name" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/OnnxRuntimeLink.build/OnnxRuntimeC.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Modules/Link.swiftmodule"
+          "name" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Modules/OnnxRuntimeLink.swiftmodule"
         }
       ],
       "prepareForIndexing" : false,
       "sources" : [
-        "/Volumes/workspace/OnnxRuntimeC/Sources/Link/OnnxRuntimeC.swift"
+        "/Volumes/workspace/OnnxRuntimeObjC/.build/checkouts/OnnxRuntimeC/Sources/OnnxRuntimeLink/OnnxRuntimeC.swift"
       ],
-      "tempsPath" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Link.build",
+      "tempsPath" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/OnnxRuntimeLink.build",
       "wholeModuleOptimization" : false
     }
   },
@@ -126,14 +129,14 @@
 
   },
   "swiftTargetScanArgs" : {
-    "Link" : [
+    "OnnxRuntimeLink" : [
       "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
       "-module-name",
-      "Link",
+      "OnnxRuntimeLink",
       "-package-name",
       "onnxruntimec",
       "-c",
-      "/Volumes/workspace/OnnxRuntimeC/Sources/Link/OnnxRuntimeC.swift",
+      "/Volumes/workspace/OnnxRuntimeObjC/.build/checkouts/OnnxRuntimeC/Sources/OnnxRuntimeLink/OnnxRuntimeC.swift",
       "-I",
       "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Modules",
       "-target",
@@ -155,7 +158,7 @@
       "-parse-as-library",
       "-emit-objc-header",
       "-emit-objc-header-path",
-      "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Link.build/include/Link-Swift.h",
+      "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/OnnxRuntimeLink.build/include/OnnxRuntimeLink-Swift.h",
       "-swift-version",
       "6",
       "-plugin-path",
@@ -181,6 +184,9 @@
       "-fPIC",
       "-Xcc",
       "-g",
+      "-suppress-warnings",
+      "-user-module-version",
+      "1.20.0",
       "-package-name",
       "onnxruntimec",
       "-driver-use-frontend-path",
@@ -188,11 +194,11 @@
     ]
   },
   "targetDependencyMap" : {
-    "Link" : [
+    "OnnxRuntimeLink" : [
 
     ],
     "onnxruntime_objc" : [
-      "Link",
+      "OnnxRuntimeLink",
       "onnxruntime"
     ]
   },
@@ -208,7 +214,7 @@
     }
   },
   "writeCommands" : {
-    "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Link.build/sources" : {
+    "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/OnnxRuntimeLink.build/sources" : {
       "alwaysOutOfDate" : false,
       "inputs" : [
         {
@@ -217,10 +223,10 @@
         },
         {
           "kind" : "file",
-          "name" : "/Volumes/workspace/OnnxRuntimeC/Sources/Link/OnnxRuntimeC.swift"
+          "name" : "/Volumes/workspace/OnnxRuntimeObjC/.build/checkouts/OnnxRuntimeC/Sources/OnnxRuntimeLink/OnnxRuntimeC.swift"
         }
       ],
-      "outputFilePath" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Link.build/sources"
+      "outputFilePath" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/OnnxRuntimeLink.build/sources"
     },
     "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/swift-version--58304C5D6DBC2206.txt" : {
       "alwaysOutOfDate" : true,

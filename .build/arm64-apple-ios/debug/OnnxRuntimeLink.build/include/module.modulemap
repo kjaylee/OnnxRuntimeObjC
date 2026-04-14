@@ -1,0 +1,3 @@
+module OnnxRuntimeLink {
+    header "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/OnnxRuntimeLink.build/include/OnnxRuntimeLink-Swift.h"
+}
