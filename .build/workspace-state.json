@@ -1,0 +1,44 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : {
+          "xcframework" : {
+
+          }
+        },
+        "packageRef" : {
+          "identity" : "onnxruntimec",
+          "kind" : "fileSystem",
+          "location" : "/Volumes/workspace/OnnxRuntimeC",
+          "name" : "OnnxRuntimeC"
+        },
+        "path" : "/Volumes/workspace/OnnxRuntimeC/onnxruntime.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "onnxruntime"
+      }
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "onnxruntimec",
+          "kind" : "fileSystem",
+          "location" : "/Volumes/workspace/OnnxRuntimeC",
+          "name" : "OnnxRuntimeC"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Volumes/workspace/OnnxRuntimeC"
+        },
+        "subpath" : "onnxruntimec"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

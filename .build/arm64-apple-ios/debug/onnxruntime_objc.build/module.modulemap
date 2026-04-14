@@ -1,0 +1,4 @@
+module onnxruntime_objc {
+    umbrella "/Volumes/workspace/OnnxRuntimeObjC/Sources/onnxruntime_objc/include"
+    export *
+}

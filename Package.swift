@@ -1,0 +1,34 @@
+// swift-tools-version: 6.1
+
+import PackageDescription
+
+let package = Package(
+    name: "OnnxRuntimeObjC",
+    platforms: [
+        .iOS(.v13)
+    ],
+    products: [
+        .library(
+            name: "OnnxRuntimeObjC",
+            targets: ["onnxruntime_objc"]
+        ),
+    ],
+    dependencies: [
+        .package(path: "../OnnxRuntimeC"),
+    ],
+    targets: [
+        .target(
+            name: "onnxruntime_objc",
+            dependencies: [
+                .product(name: "OnnxRuntimeC", package: "OnnxRuntimeC"),
+            ],
+            path: "Sources/onnxruntime_objc",
+            publicHeadersPath: "include",
+            cxxSettings: [
+                .define("SPM_BUILD"),
+                .headerSearchPath("."),
+                .unsafeFlags(["-std=c++17"]),
+            ]
+        ),
+    ]
+)

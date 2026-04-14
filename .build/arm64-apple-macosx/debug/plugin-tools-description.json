@@ -1,0 +1,240 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+    "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/onnxruntime.framework" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Volumes/workspace/OnnxRuntimeC/onnxruntime.xcframework/ios-arm64/onnxruntime.framework"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/onnxruntime.framework"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Link-arm64-apple-ios-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Link.build/sources",
+      "importPath" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/workspace/OnnxRuntimeC/Sources/Link/OnnxRuntimeC.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Link.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Link",
+      "moduleOutputPath" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Modules/Link.swiftmodule",
+      "objects" : [
+        "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Link.build/OnnxRuntimeC.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-ios13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Link.build/include/Link-Swift.h",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "onnxruntimec"
+      ],
+      "outputFileMapPath" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Link.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Link.build/OnnxRuntimeC.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Modules/Link.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Volumes/workspace/OnnxRuntimeC/Sources/Link/OnnxRuntimeC.swift"
+      ],
+      "tempsPath" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Link.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Link" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Link",
+      "-package-name",
+      "onnxruntimec",
+      "-c",
+      "/Volumes/workspace/OnnxRuntimeC/Sources/Link/OnnxRuntimeC.swift",
+      "-I",
+      "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Modules",
+      "-target",
+      "arm64-apple-ios13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Link.build/include/Link-Swift.h",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "onnxruntimec",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Link" : [
+
+    ],
+    "onnxruntime_objc" : [
+      "Link",
+      "onnxruntime"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Link.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/workspace/OnnxRuntimeC/Sources/Link/OnnxRuntimeC.swift"
+        }
+      ],
+      "outputFilePath" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/Link.build/sources"
+    },
+    "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Volumes/workspace/OnnxRuntimeObjC/.build/arm64-apple-ios/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
